@@ -3,7 +3,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const sharp = require("sharp");
 
 //token do bot do telegram
-const token = "6191560870:AAFkRoK7QE8aCQzqkHQ1Umwgf7A0KqTxQe4";
+const token = "TELEGRAMTOKEN";
 
 //cria o bot
 const bot = new TelegramBot(token, { polling: true });
